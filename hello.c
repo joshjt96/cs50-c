@@ -69,3 +69,9 @@ int main(void)
 }
 
 // In C, the first line of functions need to be written at the top of the file so the compiler knows they exist.
+
+int main(void)
+{
+    string name = get_string("What is your name? ");
+    printf("Hello, %s\n", name);
+}
