@@ -7,9 +7,11 @@ int count_letters(string input);
 int main(void)
 {
     string userInput = get_string("Enter a sentence: ");
+    string letters = " letters";
     printf("%s\n", userInput);
     int userInputLength = count_letters(userInput);
-    printf("%i\n", userInputLength);
+    printf("%i", userInputLength);
+    printf("%s\n", letters);
 
 }
 
