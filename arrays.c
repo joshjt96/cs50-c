@@ -41,4 +41,4 @@ float average(int array[])
         sum += array[i];
     }
     return sum / (float) N;
-}
+}   
